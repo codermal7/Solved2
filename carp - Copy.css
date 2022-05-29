@@ -1,0 +1,26 @@
+body{
+    background-image: url('pexels-johannes-plenio-1103970.jpg');
+    width: auto;
+}
+h2{
+    margin-left: 35px;
+    color: aliceblue;
+}
+.buttons
+{
+    /* border: 100px solid rgb(255, 255, 255); */
+    border-color: antiquewhite;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.btn{
+    border: 2px solid black;   
+    border-radius: 70px;
+    margin-left: 40px;
+    margin-right: 80px;
+    padding: 20px;
+  }
+  /* .input-group{
+      border: 2px solid rgb(142, 142, 142) ;
+  } */

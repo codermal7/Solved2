@@ -1,0 +1,195 @@
+body {
+    /* background: #67B26F;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #4ca2cd, #67B26F); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    padding: 0; */
+    background-color: rgb(210, 219, 226);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.student-profile .card {
+    border-radius: 15px;
+}
+.student-profile .card .card-header  .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+.card{
+    padding: 20px;
+}
+.row {
+   
+        display: flex;
+      
+      
+  }
+.column
+{
+    
+   
+    float: left;
+    height: 250px;
+    padding: 0 4px;
+    /* flex: 30%; */
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 33px;
+    margin-right: 5px;
+}
+
+ 
+.card-header1{
+    color: rgb(60, 243, 60);
+    
+}
+
+.card-header2{
+    color: rgb(59, 57, 57);
+}
+/* footer css */
+.footer-clean {
+    padding:40px 0;
+    background-color:rgb(56, 72, 163);
+    color:#090b0e;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  /* .footer-clean ul a {
+    color:black;
+    text-decoration:none;
+    opacity:0.8;
+  } */
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color: grey;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+  
+  .navbar{
+    font-size: large;
+  }
+  
+  .footer-clean
+  {
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+  .form-group
+  {
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .form-control
+  {
+    border-radius: 10px;
+    background-color: rgb(218, 219, 230);
+  }
+  .navbar-brand{
+    padding-top: 12px;
+  
+  }
+  .form-control{
+    font-size: 15px;
+  }
+  .nav-item{
+    padding-right: 25px;
+  }
+  /* h1{
+    font: bold;
+    padding-right: 10px;
+    font-style: italic bold;
+  } */
+  .student-profile{
+      padding-left: 25px;
+      padding-bottom: 20px;
+      font-style: italic bold;
+  }
