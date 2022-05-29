@@ -2,6 +2,21 @@ body{
     background-image: url('pexels-johannes-plenio-1103970.jpg');
     width: auto;
 }
+.Hos
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: large;
+}
+.form-group{
+    margin: 20px;
+}
+.sen{
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: large;
+    margin: 20px;
+}
 h2{
     margin-left: 35px;
     color: aliceblue;
